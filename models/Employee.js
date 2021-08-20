@@ -13,6 +13,9 @@ const employeeSchema = new Schemas({
     },
     phone:{
         type:Number
+    },
+    age: {
+        type: Number
     }
 }, {timestamps:true} )
 
