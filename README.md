@@ -1,15 +1,16 @@
 # mongodb & Node.js Connection
-##step:1 Install Node.js.
-##step:2 Install the MongoDB Node.js Driver (npm install mongodb).
-npm init
-npm install
+## step:1 Install Node.js.
+## step:2 Install the MongoDB Node.js Driver (npm install mongodb).
+### npm init
+### npm install
 
 Create a free MongoDB Atlas cluster and load the sample data.
 The final step is to prep your cluster for connection.
 Connect to your database from a Node.js application.
-Import MongoClient ##(const {MongoClient} = require('mongodb');).
+Import MongoClient 
+## const {MongoClient} = require('mongodb');
  
-#Server Connection
+# Server Connection
 const express = require("express")
 const mongoose =require("mongoose")
 const morgan = require("morgan")
