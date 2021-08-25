@@ -1,8 +1,17 @@
 # mongodb & Node.js Connection
 ## step:1 Install Node.js.
 ## step:2 Install the MongoDB Node.js Driver (npm install mongodb).
-### npm init
-### npm install
+#### npm init
+#### npm install
+#### npm install nodemon
+###### .json file
+###### "start" : "nodemon server.js"
+#### npm install morgan
+#### npm install mongoose
+#### npm install express
+#### npm install cors
+#### npm install body-parser
+#### npm install bcryptjs
 
 Create a free MongoDB Atlas cluster and load the sample data.
 The final step is to prep your cluster for connection.
@@ -16,8 +25,6 @@ Import MongoClient
 ##### const morgan = require("morgan")
 ##### const bodyParser = require("body-parser")
 ##### const cors = require("cors")
-
-##### const AuthRoute = require('./routes/auth')
 
 ##### mongoose.connect('mongodb://localhost:27017/logindb', 
 ##### {useNewUrlParser: true, useUnifiedTopology: true}) 
@@ -40,4 +47,3 @@ Import MongoClient
 ##### app.listen(PORT, ()  => {
 #####     console.log(`Server is running on port ${PORT}`)
 ##### })
-#####  app.use('/api', AuthRoute)
