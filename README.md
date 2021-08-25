@@ -12,12 +12,6 @@
 #### npm install cors
 #### npm install body-parser
 #### npm install bcryptjs
-
-Create a free MongoDB Atlas cluster and load the sample data.
-The final step is to prep your cluster for connection.
-Connect to your database from a Node.js application.
-Import MongoClient 
-## const {MongoClient} = require('mongodb');
  
 # Server Connection
 ##### const express = require("express")
@@ -35,8 +29,6 @@ Import MongoClient
 ##### db.once('open', () => {
 #####     console.log('Db Connection Established...!')
 ##### })
-
-
 ##### const app = express()
 ##### app.use(morgan('dev'))
 ##### app.use(bodyParser.urlencoded({extended : true}))
